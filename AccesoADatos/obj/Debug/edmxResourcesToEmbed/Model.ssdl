@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PracticaEFModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PracticaEFModelStoreContainer">
+    <EntitySet Name="Empleado" EntityType="PracticaEFModel.Store.Empleado" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Empresa" EntityType="PracticaEFModel.Store.Empresa" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_id_empresa" Association="PracticaEFModel.Store.FK_id_empresa">
+      <End Role="Empresa" EntitySet="Empresa" />
+      <End Role="Empleado" EntitySet="Empleado" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="apellido" Type="nvarchar" Nullable="false" MaxLength="40" />
+    <Property Name="fecha_nac" Type="datetime" Nullable="false" />
+    <Property Name="tipo" Type="tinyint" Nullable="false" />
+    <Property Name="id_empresa" Type="int" />
+  </EntityType>
+  <EntityType Name="Empresa">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_id_empresa">
+    <End Role="Empresa" Type="PracticaEFModel.Store.Empresa" Multiplicity="0..1" />
+    <End Role="Empleado" Type="PracticaEFModel.Store.Empleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empresa">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Empleado">
+        <PropertyRef Name="id_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,9 @@
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\Respositorios\obj\Debug\Respositorios.csprojResolveAssemblyReference.cache
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\Respositorios\bin\Debug\Respositorios.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\Respositorios\bin\Debug\Respositorios.pdb
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\Respositorios\bin\Debug\AccesoADatos.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\Respositorios\bin\Debug\EntityFramework.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\Respositorios\bin\Debug\AccesoADatos.pdb
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\Respositorios\bin\Debug\EntityFramework.xml
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\Respositorios\obj\Debug\Respositorios.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\Respositorios\obj\Debug\Respositorios.pdb

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PracticaEFModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="PracticaEFEntities1" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Empleado" EntityType="PracticaEFModel.Empleado" />
+    <EntitySet Name="Empresa" EntityType="PracticaEFModel.Empresa" />
+    <AssociationSet Name="FK_id_empresa" Association="PracticaEFModel.FK_id_empresa">
+      <End Role="Empresa" EntitySet="Empresa" />
+      <End Role="Empleado" EntitySet="Empleado" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="apellido" Type="String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="fecha_nac" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="tipo" Type="Byte" Nullable="false" />
+    <Property Type="Int32" Name="id_empresa" />
+    <NavigationProperty Name="Empresa" Relationship="PracticaEFModel.FK_id_empresa" FromRole="Empleado" ToRole="Empresa" />
+  </EntityType>
+  <EntityType Name="Empresa">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Empleado" Relationship="PracticaEFModel.FK_id_empresa" FromRole="Empresa" ToRole="Empleado" />
+  </EntityType>
+  <Association Name="FK_id_empresa">
+    <End Type="PracticaEFModel.Empresa" Role="Empresa" Multiplicity="0..1" />
+    <End Type="PracticaEFModel.Empleado" Role="Empleado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empresa">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Empleado">
+        <PropertyRef Name="id_empresa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

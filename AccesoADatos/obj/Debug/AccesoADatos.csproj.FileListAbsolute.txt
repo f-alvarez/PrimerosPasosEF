@@ -1,0 +1,8 @@
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\AccesoADatos\bin\Debug\AccesoADatos.dll.config
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\AccesoADatos\bin\Debug\AccesoADatos.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\AccesoADatos\bin\Debug\AccesoADatos.pdb
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\AccesoADatos\bin\Debug\EntityFramework.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\AccesoADatos\bin\Debug\EntityFramework.xml
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\AccesoADatos\obj\Debug\AccesoADatos.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\AccesoADatos\obj\Debug\AccesoADatos.pdb
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\AccesoADatos\obj\Debug\AccesoADatos.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\obj\Debug\PrimerosPasosEF.csprojResolveAssemblyReference.cache
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\bin\PrimerosPasosEF.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\bin\PrimerosPasosEF.pdb
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\bin\AccesoADatos.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\bin\EntityFramework.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\bin\Respositorios.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\bin\AccesoADatos.pdb
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\bin\Respositorios.pdb
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\bin\EntityFramework.xml
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\obj\Debug\PrimerosPasosEF.dll
+c:\users\laboratorios.unlmlab\documents\visual studio 2012\Projects\PrimerosPasosEF\PrimerosPasosEF\obj\Debug\PrimerosPasosEF.pdb
